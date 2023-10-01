@@ -11,19 +11,19 @@ def play():
     elif choice1=="rock" and x=="paper":
          print("computer won the game")
     elif choice1=="rock" and x=="rock":
-       print("both of ur choice are same")
+       print("u tied")
     if choice1=="paper" and x=="scissors":
          print("computer won the game")
     elif choice1=="paper" and x=="stone":
          print("u won the game")
     elif choice1=="paper" and x=="paper":
-         print("both of ur choice are same")
+         print("u tied")
     if choice1=="scissors" and x=="paper":
          print("u won the game")
     elif choice1=="scissors" and x=="rock":
          print("computer won the game")
     elif choice1=="scissors" and x=="scissors":
-          print("both of ur choice are same")
+          print("u tied")
 print("welcome to rock,paper,scissors game")
 choice=input("Do yoy want to paly the game :")
 if choice=="yes":
