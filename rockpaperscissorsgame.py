@@ -42,7 +42,7 @@ choice=input("Do yoy want to paly the game :")
 if choice=="yes":
     play()
 else:
-    print("exit")
+    print("type no to exit/yes to continue the game")
 while True:
     choice2=input("do you continue this game :")
     if choice2=="yes":
@@ -50,4 +50,3 @@ while True:
     else:
        print("exit")
        break
-
